@@ -1,0 +1,80 @@
+body{
+    margin: 10;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    border: 1px solid green;
+    border-collapse: collapse;
+    height: 30px;
+}
+
+.div-img{
+    border-left: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+.wrap-option{
+    border: 1px solid black;
+    border-top: 0px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 30px;
+    transition: all 0.5s;
+}
+
+.option:hover{
+    background-color: rgb(206, 202, 201);
+}
+
+img{
+    transition: all 0.5s;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    text-transform:capitalize;
+}
+
+.transform{
+    transform: rotate(90deg);
+}
+
+.show{
+    display: flex !important;
+}
+
+.hide{
+    display: none;
+}
+
+.selected{
+    background-color: green ;
+    color: white;
+}
+
+.border-red{
+    border: 1px solid red !important;
+}
+
+.select{
+    background-color: rgb(206, 202, 201);
+    color: black;
+}
